@@ -1,2 +1,5 @@
-config:
-    info:prod-version:1
+spring:
+  application:
+    name: springcloud-config-prod
+  profiles:
+    active: prod
