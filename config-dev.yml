@@ -1,2 +1,5 @@
-config:
-    info:dev-version:1
+spring:
+  application:
+    name: springcloud-config-dev
+  profiles:
+    active: dev
